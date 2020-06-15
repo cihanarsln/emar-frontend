@@ -1,0 +1,24 @@
+#admin-navbar-brand{
+    font-family: Fredoka One;
+    font-size: xx-large;
+    color: #142850;
+}
+
+#admin-navbar-brand:hover{
+    color: #142850;
+    text-decoration: none;
+}
+
+#admin-navbar-icon{
+    color: darkblue;
+    margin-right: 3px;
+}
+
+.link{
+    color: black;
+}
+
+.link:hover{
+    color: brown;
+    text-decoration: none;
+}

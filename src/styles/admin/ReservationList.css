@@ -1,0 +1,27 @@
+#admin-reservation-list{
+    -webkit-box-shadow: 0px 10px 30px -15px rgba(145,114,145,1);
+    -moz-box-shadow: 0px 10px 30px -15px rgba(145,114,145,1);
+    box-shadow: 0px 10px 30px -15px rgba(145,114,145,1);
+    padding: 20px 10px;
+    margin-bottom: 50px;
+}
+
+#admin-reservation-list-title{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+    color: lightseagreen;
+    text-align: center;
+}
+
+#admin-reservation-list-body{
+    text-align: center;
+    font-family: Lexend Deca;
+    font-size: 14px;
+}
+
+#admin-reservation-list-h1{
+    font-family: Lexend Deca;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
