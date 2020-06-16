@@ -25,3 +25,25 @@
     margin-bottom: 10px;
     font-weight: bold;
 }
+
+#admin-room-list-remove-button{
+    float: right;
+}
+
+#admin-room-list-add-button{
+    margin: 10px 0;
+    float: right;
+    font-family: Lexend Deca;
+    font-size: 14px;
+    background-color: #9e50e7;
+    color: #ffffff;
+    padding: 8px 13px;
+}
+
+#admin-room-list-add-button:hover{
+    text-decoration: none;
+}
+
+.button-icon{
+    margin-right: 5px;
+}
