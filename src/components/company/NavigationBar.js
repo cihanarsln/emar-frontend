@@ -9,7 +9,7 @@ const NavigationBar = () => {
         <div>
             <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
                 <Navbar.Brand>
-                    <Link id="admin-navbar-brand" to="/company/reservation">
+                    <Link id="admin-navbar-brand" to="/">
                         Emar
                     </Link>
                 </Navbar.Brand>

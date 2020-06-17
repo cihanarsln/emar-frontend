@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import {Nav, Navbar} from "react-bootstrap";
 
-import "../../styles/admin/NavigationBar.css";
+import "../styles/admin/NavigationBar.css";
 
 const NavigationBar = () => {
     return(
@@ -21,14 +21,14 @@ const NavigationBar = () => {
                     <Nav>
                         <Nav.Link>
                             <Link className="link" to="/admin">
-                                <i className="fas fa-border-all" id="admin-navbar-icon"></i>
-                                Rezervations
+                                <i className="fas fa-database" id="admin-navbar-icon"></i>
+                                Admin Panel
                             </Link>
                         </Nav.Link>
                         <Nav.Link>
-                            <Link className="link" to="/admin/rooms">
-                                <i className="far fa-clone" id="admin-navbar-icon"></i>
-                                Rooms
+                            <Link className="link" to="/company/reservation">
+                                <i className="far fa-copyright" id="admin-navbar-icon"></i>
+                                Company Panel
                             </Link>
                         </Nav.Link>
                     </Nav>

@@ -18,7 +18,7 @@ const CreateReservation = () => {
         },
         validationSchema: yup.object({
             roomId: yup.number().required('Required'),
-            roomId: yup.number().required('Required'),
+            companyId: yup.number().required('Required'),
             startDate: yup.string().required('Required'),
             endDate: yup.string().required('Required'),
             price: yup.number().required('Required')

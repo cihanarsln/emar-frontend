@@ -9,12 +9,14 @@ import CompanyReservationList from './company/CompanyReservationList';
 import CreateReservation from './company/CreateReservation';
 import CompanyList from './company/CompanyList';
 import CreateCompany from './company/CreateCompany';
+import Welcome from './Welcome';
 
 const App = () => {
     return(
         <div>
             <Router history={history}>
                 <Switch>
+                    <Route path="/" exact component={Welcome} />
                     <Route path="/admin" exact component={ReservationList} />
                     <Route path="/admin/rooms" exact component={RoomList} />
                     <Route path="/admin/room/new" exact component={CreateRoom} />
